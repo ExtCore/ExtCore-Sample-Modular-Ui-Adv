@@ -4,7 +4,7 @@
 using System.Collections.Generic;
 using Infrastructure;
 
-namespace EventHandlers
+namespace ClientEventHandlers1
 {
   public class ExtensionMetadata : IExtensionMetadata
   {
@@ -16,7 +16,7 @@ namespace EventHandlers
       {
         return new Script[]
         {
-          new Script("Scripts.event_handlers.js", 300)
+          new Script("Scripts.client_event_handlers_1.js", 200)
         };
       }
     }

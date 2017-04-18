@@ -16,6 +16,17 @@
 
   <ItemGroup>
     <Folder Include="Extensions\" />
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Barebone\Barebone.csproj" />
+    <ProjectReference Include="..\ClientEventHandlers1\ClientEventHandlers1.csproj" />
+    <ProjectReference Include="..\ClientEventHandlers2\ClientEventHandlers2.csproj" />
+    <ProjectReference Include="..\Extension1\Extension1.csproj" />
+    <ProjectReference Include="..\Extension2\Extension2.csproj" />
+    <ProjectReference Include="..\Extension3\Extension3.csproj" />
+    <ProjectReference Include="..\ServerEventHandlers\ServerEventHandlers.csproj" />
   </ItemGroup>
 
 </Project>
